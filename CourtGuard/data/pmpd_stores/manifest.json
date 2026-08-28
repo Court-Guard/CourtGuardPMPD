@@ -1,0 +1,25 @@
+{
+  "original_mlcommons_policy": "original/original_pmpd_store.json",
+  "adaptation_ladder": [
+    {
+      "stage": "No S5",
+      "removed_category": "Defamation",
+      "file": "mlcommons_adaptation/no_s5_defamation.json"
+    },
+    {
+      "stage": "No S5,S6",
+      "removed_category": "Specialized Advice",
+      "file": "mlcommons_adaptation/no_s5_s6_specialized_advice.json"
+    },
+    {
+      "stage": "No S5,S6,S7",
+      "removed_category": "Privacy",
+      "file": "mlcommons_adaptation/no_s5_s6_s7_privacy.json"
+    },
+    {
+      "stage": "No S5,S6,S7,S8",
+      "removed_category": "Intellectual Property",
+      "file": "mlcommons_adaptation/no_s5_s6_s7_s8_intellectual_property.json"
+    }
+  ]
+}
